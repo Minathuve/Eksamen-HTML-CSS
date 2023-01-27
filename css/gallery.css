@@ -1,0 +1,139 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Start navbar-styling */
+nav {
+  width: 100%;
+  height: 150px;
+  position: fixed;
+  top: 0;
+  background-color: whitesmoke;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  color: darkcyan;
+  font-size: 30px;
+  padding: 30px;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: darkcyan;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  font-style: italic;
+}
+/* Styling login-btn */
+/* Inspirasjon fra ulike button-oppsett på: https://www.w3schools.com/css/css3_buttons.asp */
+.login-btn {
+  border: none;
+  background-color: darkcyan;
+  color: white;
+  font-size: medium;
+  padding: 10px 25px;
+  border-radius: 20px;
+  margin-top: -8px;
+}
+
+.login-btn:hover {
+  color: darkcyan;
+  background-color: white;
+}
+
+.login-btn:active {
+  font-style: italic;
+}
+
+/* Styling hovedinnhold */
+h2 {
+  text-align: center;
+  color: darkcyan;
+  margin-top: 180px;
+  padding: 20px;
+}
+.picture-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: auto auto auto auto;
+  grid-row: auto auto;
+  margin-bottom: 40px;
+}
+
+/* Box-shadow hentet fra https://getcssscan.com/css-box-shadow-examples */
+.grid-box {
+  width: 300px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  padding: 10px;
+  border-radius: 7px;
+  margin-bottom: 80px;
+}
+
+.item1 {
+  width: 100%;
+  float: left;
+}
+.item2 {
+  width: 100%;
+  float: left;
+  grid-column: 3;
+  grid-row: 2;
+}
+.item3 {
+  width: 100%;
+  float: left;
+  grid-column: 4;
+  grid-row: 1;
+}
+.item4 {
+  width: 100%;
+  float: left;
+  grid-column: 3;
+  grid-row: 1;
+}
+.item5 {
+  width: 100%;
+  float: left;
+  grid-column: 1;
+  grid-row: 2;
+}
+.item6 {
+  width: 100%;
+  float: left;
+  grid-column: 4;
+  grid-row: 2;
+}
+
+/* Styling footer*/
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  height: 80px;
+  padding: 20px;
+}
+
+.footer-text {
+  list-style: none;
+  text-align: center;
+  color: darkcyan;
+  font-size: 14px;
+}

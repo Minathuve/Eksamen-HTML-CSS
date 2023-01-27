@@ -1,0 +1,151 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Start navbar-styling */
+nav {
+  width: 100%;
+  height: 150px;
+  position: fixed;
+  top: 0;
+  background-color: whitesmoke;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  color: darkcyan;
+  font-size: 30px;
+  padding: 30px;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: darkcyan;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  font-style: italic;
+}
+/* Styling login-btn */
+/* Inspirasjon fra ulike button-oppsett på: https://www.w3schools.com/css/css3_buttons.asp */
+.login-btn {
+  border: none;
+  background-color: darkcyan;
+  color: white;
+  font-size: medium;
+  padding: 10px 25px;
+  border-radius: 20px;
+  margin-top: -8px;
+}
+
+.login-btn:hover {
+  color: darkcyan;
+  background-color: white;
+}
+
+.login-btn:active {
+  font-style: italic;
+}
+
+/*Styling av hovedinnhold*/
+h2 {
+  text-align: center;
+  color: darkcyan;
+  margin: 30px;
+  margin-top: 180px;
+}
+
+.info-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+/* Box-shadow hentet fra https://getcssscan.com/css-box-shadow-examples */
+.info-box {
+  width: 320px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  padding: 10px;
+  border-radius: 7px;
+  margin: 12px;
+}
+
+/* Tips om linjeavstand: https://www.w3schools.com/cssref/pr_dim_line-height.php */
+.information {
+  line-height: 30px;
+  list-style: none;
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+h3 {
+  color: darkcyan;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Styling submit button */
+.submit-btn {
+  border-style: solid;
+  border-color: darkcyan;
+  background-color: darkcyan;
+  color: white;
+  padding: 5px 15px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.submit-btn:hover {
+  color: darkcyan;
+  background-color: white;
+  border-style: solid;
+  border-color: darkcyan;
+}
+
+.submit-btn:active {
+  font-style: italic;
+}
+
+/*Styling footer */
+footer {
+  position: fixed;
+  background-color: whitesmoke;
+  bottom: 0;
+  height: 80px;
+  padding: 10px;
+  width: 100%;
+  font-size: 14px;
+}
+
+.footer-text {
+  color: darkcyan;
+  list-style: none;
+  display: block;
+  text-align: center;
+}
+
+#tlf-nr {
+  font-size: 25px;
+}
